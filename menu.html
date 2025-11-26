@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="MarcoVentures Services - Capital Funding, Investor Oriented, Team Productivity, Innovation.">
+  <meta name="keywords" content="Services, Investment, Capital Funding, Innovation, Team Productivity">
+  <meta name="author" content="MarcoVentures Team">
+  <title>MarcoVentures - Services</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container header-container">
+      <div class="logo">MarcoVentures</div>
+      <nav class="navbar" id="navbar">
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="menu.html" class="nav-link">Services</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="mobile-nav-toggle" id="mobile-nav-toggle">☰</div>
+    </div>
+  </header>
+
+  <!-- Services Section -->
+  <section class="menu-section">
+    <h2 class="section-title animate-on-scroll">Our Services</h2>
+    <div class="menu-grid">
+      <div class="menu-item animate-on-scroll">
+        <img src="african-man-black-suit-big-tv-screen-guy-shows-presentation_1157-48542.avif" alt="Capital Funding">
+        <h3>Capital Funding</h3>
+        <p>Get your business idea funded by our trusted banking partners and investors.</p>
+      </div>
+      <div class="menu-item animate-on-scroll">
+        <img src="istockphoto-1934504024-612x612.jpg" alt="Investor Oriented">
+        <h3>Risk Mitigation</h3>
+        <p>Co-shared capital sourcing and investor patnerships to manage risks when staring up businesses. A platform for easy capital sourcing for MSME's with great ideas but limited capital access.</p>
+      </div>
+      <div class="menu-item animate-on-scroll">
+        <img src="Collaborating_team_hero.jpg" alt="Team Productivity">
+        <h3>Team Productivity</h3>
+        <p>Goals and ideas centered around team productivity to promote collective output and efficiency.</p>
+      </div>
+      <div class="menu-item animate-on-scroll">
+        <img src="black-man-tablet-farmer-greenhouse-600nw-2462359941.webp" alt="Innovation">
+        <h3>Innovation</h3>
+        <p>Incorporating technology and continuous improvement, transforming new ideas into tangible solutions.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer" id="contact">
+    <div class="container">
+      <p>Email: <a href="mailto:contact@marcoventures.com">contact@marcoventures.com</a></p>
+      <p>Phone: +254 712 345 567</p>
+      <p>&copy; 2025 MarcoVentures. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    // Highlight active nav link
+    document.querySelectorAll(".nav-link").forEach(link => {
+      if (link.href === window.location.href) link.classList.add("active");
+    });
+  </script>
+</body>
+</html>
